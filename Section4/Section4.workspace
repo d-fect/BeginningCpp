@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section4" Database="" Version="10.0.0">
+  <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
+  <Project Name="Project2" Path="Project2/Project2.project" Active="No"/>
+  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
+  <Project Name="CompilerErrors" Path="CompilerErrors/CompilerErrors.project" Active="No"/>
+  <Project Name="CompilerWarnings" Path="CompilerWarnings/CompilerWarnings.project" Active="No"/>
+  <Project Name="Section_4_Challenge" Path="Section_4_Challenge/Section_4_Challenge.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Project1" ConfigName="Debug"/>
+      <Project Name="Project2" ConfigName="Debug"/>
+      <Project Name="FirstProgram" ConfigName="Debug"/>
+      <Project Name="CompilerErrors" ConfigName="Debug"/>
+      <Project Name="CompilerWarnings" ConfigName="Debug"/>
+      <Project Name="Section_4_Challenge" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Project1" ConfigName="Release"/>
+      <Project Name="Project2" ConfigName="Release"/>
+      <Project Name="FirstProgram" ConfigName="Release"/>
+      <Project Name="CompilerErrors" ConfigName="Release"/>
+      <Project Name="CompilerWarnings" ConfigName="Release"/>
+      <Project Name="Section_4_Challenge" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
