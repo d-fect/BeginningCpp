@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section_6" Database="" Version="10.0.0">
+  <Project Name="Variables" Path="Variables/Variables.project" Active="No"/>
+  <Project Name="PrimitiveTypes" Path="PrimitiveTypes/PrimitiveTypes.project" Active="No"/>
+  <Project Name="SizeofOperator" Path="SizeofOperator/SizeofOperator.project" Active="No"/>
+  <Project Name="FranksCarpetCleaningEstimate" Path="FranksCarpetCleaningEstimate/FranksCarpetCleaningEstimate.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Variables" ConfigName="Debug"/>
+      <Project Name="PrimitiveTypes" ConfigName="Debug"/>
+      <Project Name="SizeofOperator" ConfigName="Debug"/>
+      <Project Name="FranksCarpetCleaningEstimate" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Variables" ConfigName="Release"/>
+      <Project Name="PrimitiveTypes" ConfigName="Release"/>
+      <Project Name="SizeofOperator" ConfigName="Release"/>
+      <Project Name="FranksCarpetCleaningEstimate" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

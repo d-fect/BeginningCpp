@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=BasicIO
+ProjectName            :=SizeofOperator
 ConfigurationName      :=Debug
-WorkspacePath          :=D:/UnrealCourse/Repos/BeginningCpp/Section_5
-ProjectPath            :=D:/UnrealCourse/Repos/BeginningCpp/Section_5/BasicIO
+WorkspacePath          :=D:/UnrealCourse/Repos/BeginningCpp/Section_6
+ProjectPath            :=D:/UnrealCourse/Repos/BeginningCpp/Section_6/SizeofOperator
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=frank
-Date                   :=12/06/2018
+Date                   :=20/06/2018
 CodeLitePath           :="D:/Program Files/CodeLite"
 LinkerName             :=D:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=D:/MinGW/bin/g++.exe -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="BasicIO.txt"
+ObjectsFileList        :="SizeofOperator.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/UnrealCourse/Repos/BeginningCpp/Section_5/BasicIO/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/UnrealCourse/Repos/BeginningCpp/Section_6/SizeofOperator/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 
