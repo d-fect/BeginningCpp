@@ -24,6 +24,6 @@ int main() {
     cout << "Are 10.0 and 9.9999999999999999 the same number?" << endl;
     cout << "C++ says... " << boolalpha << (10.0 == 9.9999999999999999) << noboolalpha << "!!!!" << endl;   // On your system you might have to add some nines to get the same result.
     
-	cout << endl;
+    cout << endl;
     return 0;
 }
