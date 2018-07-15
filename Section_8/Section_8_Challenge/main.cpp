@@ -33,6 +33,6 @@ int main() {
     cout << "nickels  : " << nickels << endl;
     cout << "pennies  : " << pennies << endl;
     
-	cout << endl;
+    cout << endl;
     return 0;
 }

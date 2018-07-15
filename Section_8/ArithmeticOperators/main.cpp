@@ -35,6 +35,6 @@ int main() {
     cout << num1 << " divided by " << num5 << " equals " << num1 / num5 << " with a remainder of " << num1 % num5 << endl;
     cout << num5 << " divided by " << num1 << " equals " << num5 / num1 << " with a remainder of " << num5 % num1 << endl;
     
-	cout << endl;
+    cout << endl;
     return 0;
 }

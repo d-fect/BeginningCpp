@@ -29,6 +29,6 @@ int main() {
     // average = (double)total / count;             // This is old C-style casting and it just assumes total can be converted to double. Don't use this type.
     cout << "The average of the " << count << " numbers using explicit cast to double is: " << average << endl;
     
-	cout << endl;
+    cout << endl;
     return 0;
 }

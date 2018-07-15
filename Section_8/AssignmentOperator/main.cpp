@@ -43,6 +43,6 @@ int main() {
     cout << "\nnum1 is " << num1 << endl;
     cout << "num2 is " << num2 << endl;
     
-	cout << endl;
+    cout << endl;
     return 0;
 }
