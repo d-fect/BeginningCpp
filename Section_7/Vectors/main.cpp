@@ -66,6 +66,6 @@ int main() {
     cout << "Progress of student #2: " << exam_scores.at(1).at(0) << ", ";                              // But using vector syntax is better due to error checking etc
     cout << exam_scores.at(1).at(1) << ", " << exam_scores.at(1).at(2) << ", " << exam_scores.at(1).at(3) << endl;
     
-	cout << endl;
+    cout << endl;
     return 0;
 }

@@ -33,6 +33,6 @@ int main() {
 //    cin >> score;
 //    test_scores[10] = score;
 
-	cout << endl;
+    cout << endl;
     return 0;
 }
