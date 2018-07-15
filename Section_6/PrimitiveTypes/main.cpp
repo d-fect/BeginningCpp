@@ -42,5 +42,6 @@ int main() {
     short product {value1 * value2};  // Will give an overflow and not the correct result. 
     cout << "The product of " << value1 << " and " << value2 << " is " << product << endl; 
     
+    cout << endl;
     return 0;
 }

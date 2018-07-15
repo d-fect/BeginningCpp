@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ FranksCarpetCleaningEstimate - Debug ]----------"
-	@cd "FranksCarpetCleaningEstimate" && "$(MAKE)" -f  "FranksCarpetCleaningEstimate.mk"
+	@echo "----------Building project:[ PrimitiveTypes - Debug ]----------"
+	@cd "PrimitiveTypes" && "$(MAKE)" -f  "PrimitiveTypes.mk"
 clean:
-	@echo "----------Cleaning project:[ FranksCarpetCleaningEstimate - Debug ]----------"
-	@cd "FranksCarpetCleaningEstimate" && "$(MAKE)" -f  "FranksCarpetCleaningEstimate.mk" clean
+	@echo "----------Cleaning project:[ PrimitiveTypes - Debug ]----------"
+	@cd "PrimitiveTypes" && "$(MAKE)" -f  "PrimitiveTypes.mk" clean
