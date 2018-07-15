@@ -1,8 +1,37 @@
+# CodeLite directories
 */.codelite
 **/Debug
 
 # Compiled Object files
-*.d
+*.slo
+*.lo
 *.o
-*.exe
+*.obj
 *.mk
+
+# Prerequisites
+*.d
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
