@@ -8,13 +8,13 @@ using namespace std;    // This is not recommended, but done here as this is a s
 int main() {
     cout << "Hello World!" << endl;
     
-//    cout << "Hello";
-//    cout << "World" << endl;
+    cout << "Hello";
+    cout << "World" << endl;
     
-//    cout << "Hello world!" << endl;
-//    cout << "Hello" << " world!" << endl;
-//    cout << "Hello" << " world!\n";
-//    cout << "Hello\nOut\nThere\n";
+    cout << "Hello world!" << endl;
+    cout << "Hello" << " world!" << endl;
+    cout << "Hello" << " world!\n";
+    cout << "Hello\nOut\nThere\n";
     
 //    int num1;
 //    int num2;
