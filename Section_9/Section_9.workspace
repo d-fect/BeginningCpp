@@ -4,7 +4,9 @@
   <Project Name="Shipping" Path="Shipping/Shipping.project" Active="No"/>
   <Project Name="Switch" Path="Switch/Switch.project" Active="No"/>
   <Project Name="SwitchEnum" Path="SwitchEnum/SwitchEnum.project" Active="No"/>
-  <Project Name="ConditionalOperator" Path="ConditionalOperator/ConditionalOperator.project" Active="Yes"/>
+  <Project Name="ConditionalOperator" Path="ConditionalOperator/ConditionalOperator.project" Active="No"/>
+  <Project Name="ForLoop" Path="ForLoop/ForLoop.project" Active="No"/>
+  <Project Name="Section9Exercises" Path="Section9Exercises/Section9Exercises.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +15,8 @@
       <Project Name="Switch" ConfigName="Debug"/>
       <Project Name="SwitchEnum" ConfigName="Debug"/>
       <Project Name="ConditionalOperator" ConfigName="Debug"/>
+      <Project Name="ForLoop" ConfigName="Debug"/>
+      <Project Name="Section9Exercises" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +25,8 @@
       <Project Name="Switch" ConfigName="Release"/>
       <Project Name="SwitchEnum" ConfigName="Release"/>
       <Project Name="ConditionalOperator" ConfigName="Release"/>
+      <Project Name="ForLoop" ConfigName="Release"/>
+      <Project Name="Section9Exercises" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
