@@ -5,9 +5,9 @@
 using namespace std;    // BAD PRACTICE! Don't use using!! But since I'm lazy I'll use it during this course.
 
 int main() {
-    for (auto c: "This is a string, and auto will automatically make c a char")
-        cout << c << endl;
-    cout << endl;
+//    for (auto c: "This is a string, and auto will automatically make c a char")
+//        cout << c << endl;
+//    cout << endl;
     
 //    for (char c: "This is a string, but we have explicitly made c a char")
 //        cout << c;
@@ -17,11 +17,11 @@ int main() {
 //        if (c != ' ')
 //            cout << c;
             
-//    for (auto c: "This is a test!")
-//        if (c == ' ')
-//            cout << '\t';   // Seems you can use both ''  and "" for this
-//        else
-//            cout << c;
+    for (auto c: "This is a test!")
+        if (c == ' ')
+            cout << '\t';   // Seems you can use both ''  and "" for this
+        else
+            cout << c;
     
 //    int scores[] {10, 20, 30};
 //    for (int score: scores)
