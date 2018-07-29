@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section_7" Database="" Version="10.0.0">
   <Project Name="OutOfBounds" Path="OutOfBounds/OutOfBounds.project" Active="No"/>
-  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="Yes"/>
-  <Project Name="Section_7_Challenge" Path="Section_7_Challenge/Section_7_Challenge.project" Active="No"/>
+  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
+  <Project Name="Section_7_Challenge" Path="Section_7_Challenge/Section_7_Challenge.project" Active="Yes"/>
+  <Project Name="Section_7_Exercise" Path="Section_7_Exercise/Section_7_Exercise.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="OutOfBounds" ConfigName="Debug"/>
       <Project Name="Vectors" ConfigName="Debug"/>
       <Project Name="Section_7_Challenge" ConfigName="Debug"/>
+      <Project Name="Section_7_Exercise" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="OutOfBounds" ConfigName="Release"/>
       <Project Name="Vectors" ConfigName="Release"/>
       <Project Name="Section_7_Challenge" ConfigName="Release"/>
+      <Project Name="Section_7_Exercise" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
