@@ -3,8 +3,9 @@
   <Project Name="AssignmentOperator" Path="AssignmentOperator/AssignmentOperator.project" Active="No"/>
   <Project Name="ArithmeticOperators" Path="ArithmeticOperators/ArithmeticOperators.project" Active="No"/>
   <Project Name="MixedExpressions" Path="MixedExpressions/MixedExpressions.project" Active="No"/>
-  <Project Name="EqualityTesting" Path="EqualityTesting/EqualityTesting.project" Active="Yes"/>
+  <Project Name="EqualityTesting" Path="EqualityTesting/EqualityTesting.project" Active="No"/>
   <Project Name="Section_8_Challenge" Path="Section_8_Challenge/Section_8_Challenge.project" Active="No"/>
+  <Project Name="Section_8_Exercise" Path="Section_8_Exercise/Section_8_Exercise.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="MixedExpressions" ConfigName="Debug"/>
       <Project Name="EqualityTesting" ConfigName="Debug"/>
       <Project Name="Section_8_Challenge" ConfigName="Debug"/>
+      <Project Name="Section_8_Exercise" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="MixedExpressions" ConfigName="Release"/>
       <Project Name="EqualityTesting" ConfigName="Release"/>
       <Project Name="Section_8_Challenge" ConfigName="Release"/>
+      <Project Name="Section_8_Exercise" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
