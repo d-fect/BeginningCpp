@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Section_10" Database="" Version="10.0.0">
   <Project Name="C-styleStrings" Path="C-styleStrings/C-styleStrings.project" Active="No"/>
   <Project Name="CStyleStrings" Path="CStyleStrings/CStyleStrings.project" Active="No"/>
-  <Project Name="CppStyleStrings" Path="CppStyleStrings/CppStyleStrings.project" Active="Yes"/>
+  <Project Name="CppStyleStrings" Path="CppStyleStrings/CppStyleStrings.project" Active="No"/>
+  <Project Name="CPPStrings" Path="CPPStrings/CPPStrings.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="C-styleStrings" ConfigName="Debug"/>
       <Project Name="CStyleStrings" ConfigName="Debug"/>
       <Project Name="CppStyleStrings" ConfigName="Debug"/>
+      <Project Name="CPPStrings" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="C-styleStrings" ConfigName="Release"/>
       <Project Name="CStyleStrings" ConfigName="Release"/>
       <Project Name="CppStyleStrings" ConfigName="Release"/>
+      <Project Name="CPPStrings" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
