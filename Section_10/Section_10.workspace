@@ -3,7 +3,10 @@
   <Project Name="C-styleStrings" Path="C-styleStrings/C-styleStrings.project" Active="No"/>
   <Project Name="CStyleStrings" Path="CStyleStrings/CStyleStrings.project" Active="No"/>
   <Project Name="CppStyleStrings" Path="CppStyleStrings/CppStyleStrings.project" Active="No"/>
-  <Project Name="CPPStrings" Path="CPPStrings/CPPStrings.project" Active="Yes"/>
+  <Project Name="CPPStrings" Path="CPPStrings/CPPStrings.project" Active="No"/>
+  <Project Name="Section_10_C-styleStringExercise" Path="Section_10_Exercise/Section_10_Exercise.project" Active="No"/>
+  <Project Name="Section_10_CppStyleStringExercise" Path="Section_10_CppStyleStringExercise/Section_10_CppStyleStringExercise.project" Active="Yes"/>
+  <Project Name="Section_10_Challenge" Path="Section_10_Challenge/Section_10_Challenge.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -11,6 +14,9 @@
       <Project Name="CStyleStrings" ConfigName="Debug"/>
       <Project Name="CppStyleStrings" ConfigName="Debug"/>
       <Project Name="CPPStrings" ConfigName="Debug"/>
+      <Project Name="Section_10_C-styleStringExercise" ConfigName="Debug"/>
+      <Project Name="Section_10_CppStyleStringExercise" ConfigName="Debug"/>
+      <Project Name="Section_10_Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -18,6 +24,9 @@
       <Project Name="CStyleStrings" ConfigName="Release"/>
       <Project Name="CppStyleStrings" ConfigName="Release"/>
       <Project Name="CPPStrings" ConfigName="Release"/>
+      <Project Name="Section_10_C-styleStringExercise" ConfigName="Release"/>
+      <Project Name="Section_10_CppStyleStringExercise" ConfigName="Release"/>
+      <Project Name="Section_10_Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
