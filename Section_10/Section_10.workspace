@@ -5,8 +5,10 @@
   <Project Name="CppStyleStrings" Path="CppStyleStrings/CppStyleStrings.project" Active="No"/>
   <Project Name="CPPStrings" Path="CPPStrings/CPPStrings.project" Active="No"/>
   <Project Name="Section_10_C-styleStringExercise" Path="Section_10_Exercise/Section_10_Exercise.project" Active="No"/>
-  <Project Name="Section_10_CppStyleStringExercise" Path="Section_10_CppStyleStringExercise/Section_10_CppStyleStringExercise.project" Active="Yes"/>
+  <Project Name="Section_10_CppStyleStringExercise" Path="Section_10_CppStyleStringExercise/Section_10_CppStyleStringExercise.project" Active="No"/>
   <Project Name="Section_10_Challenge" Path="Section_10_Challenge/Section_10_Challenge.project" Active="No"/>
+  <Project Name="Sec10_Assignment_LetterPyramid" Path="Sec10_Assignment_LetterPyramid/Sec10_Assignment_LetterPyramid.project" Active="Yes"/>
+  <Project Name="LetterPyramid_InstructorVersion" Path="LetterPyramid_InstructorVersion/LetterPyramid_InstructorVersion.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +19,8 @@
       <Project Name="Section_10_C-styleStringExercise" ConfigName="Debug"/>
       <Project Name="Section_10_CppStyleStringExercise" ConfigName="Debug"/>
       <Project Name="Section_10_Challenge" ConfigName="Debug"/>
+      <Project Name="Sec10_Assignment_LetterPyramid" ConfigName="Debug"/>
+      <Project Name="LetterPyramid_InstructorVersion" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +31,8 @@
       <Project Name="Section_10_C-styleStringExercise" ConfigName="Release"/>
       <Project Name="Section_10_CppStyleStringExercise" ConfigName="Release"/>
       <Project Name="Section_10_Challenge" ConfigName="Release"/>
+      <Project Name="Sec10_Assignment_LetterPyramid" ConfigName="Release"/>
+      <Project Name="LetterPyramid_InstructorVersion" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
