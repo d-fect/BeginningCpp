@@ -3,8 +3,8 @@
   <Project Name="FunctionsIntro" Path="FunctionsIntro/FunctionsIntro.project" Active="No"/>
   <Project Name="Exercise_21_Using_cmath_Library" Path="Exercise_21_Using_cmath_Library/Exercise_21_Using_cmath_Library.project" Active="No"/>
   <Project Name="Math" Path="Math/Math.project" Active="No"/>
-  <Project Name="FunctionDefinitions" Path="FunctionDefinitions/FunctionDefinitions.project" Active="No"/>
-  <Project Name="Mathing" Path="Mathing/Mathing.project" Active="Yes"/>
+  <Project Name="FunctionDefinitions" Path="FunctionDefinitions/FunctionDefinitions.project" Active="Yes"/>
+  <Project Name="Mathing" Path="Mathing/Mathing.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
