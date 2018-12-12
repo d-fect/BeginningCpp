@@ -8,8 +8,8 @@ using namespace std;    // BAD PRACTICE! Don't use using!! But since I'm lazy I'
 int main() {
     int random_number {};
     size_t count {10000000};  // How many random numbers do you want to generate?
-    int min {1};          // Must be <= max
-    int max {20};          // Must be >= min
+    int min {11};          // Must be <= max
+    int max {13};          // Must be >= min
     vector <size_t> number_distribution (min + max + 1, 0);
     size_t total_numbers {};
     size_t unique_numbers {};

@@ -4,10 +4,7 @@
   <Project Name="Exercise_21_Using_cmath_Library" Path="Exercise_21_Using_cmath_Library/Exercise_21_Using_cmath_Library.project" Active="No"/>
   <Project Name="Math" Path="Math/Math.project" Active="No"/>
   <Project Name="FunctionDefinitions" Path="FunctionDefinitions/FunctionDefinitions.project" Active="Yes"/>
-<<<<<<< HEAD
-=======
   <Project Name="Mathing" Path="Mathing/Mathing.project" Active="No"/>
->>>>>>> Section_11
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -15,10 +12,7 @@
       <Project Name="Exercise_21_Using_cmath_Library" ConfigName="Debug"/>
       <Project Name="Math" ConfigName="Debug"/>
       <Project Name="FunctionDefinitions" ConfigName="Debug"/>
-<<<<<<< HEAD
-=======
       <Project Name="Mathing" ConfigName="Debug"/>
->>>>>>> Section_11
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -26,10 +20,7 @@
       <Project Name="Exercise_21_Using_cmath_Library" ConfigName="Release"/>
       <Project Name="Math" ConfigName="Release"/>
       <Project Name="FunctionDefinitions" ConfigName="Release"/>
-<<<<<<< HEAD
-=======
       <Project Name="Mathing" ConfigName="Release"/>
->>>>>>> Section_11
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
