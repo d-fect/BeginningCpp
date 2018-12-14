@@ -5,7 +5,9 @@
   <Project Name="Math" Path="Math/Math.project" Active="No"/>
   <Project Name="FunctionDefinitions" Path="FunctionDefinitions/FunctionDefinitions.project" Active="No"/>
   <Project Name="Mathing" Path="Mathing/Mathing.project" Active="No"/>
-  <Project Name="FunctionPrototypes" Path="FunctionPrototypes/FunctionPrototypes.project" Active="Yes"/>
+  <Project Name="FunctionPrototypes" Path="FunctionPrototypes/FunctionPrototypes.project" Active="No"/>
+  <Project Name="FunctionParameters" Path="FunctionParameters/FunctionParameters.project" Active="No"/>
+  <Project Name="Exercise_22_Functions_and_Prototypes" Path="Exercise_22_Functions_and_Prototypes/Exercise_22_Functions_and_Prototypes.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -15,6 +17,8 @@
       <Project Name="FunctionDefinitions" ConfigName="Debug"/>
       <Project Name="Mathing" ConfigName="Debug"/>
       <Project Name="FunctionPrototypes" ConfigName="Debug"/>
+      <Project Name="FunctionParameters" ConfigName="Debug"/>
+      <Project Name="Exercise_22_Functions_and_Prototypes" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -23,6 +27,8 @@
       <Project Name="Math" ConfigName="Release"/>
       <Project Name="FunctionDefinitions" ConfigName="Release"/>
       <Project Name="FunctionPrototypes" ConfigName="Release"/>
+      <Project Name="FunctionParameters" ConfigName="Release"/>
+      <Project Name="Exercise_22_Functions_and_Prototypes" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

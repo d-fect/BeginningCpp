@@ -16,7 +16,8 @@ void say_hello() {
     cout << "Hello, World!" << endl;
 }
 
-int main() {
+// Main function
+int main () {
     say_hello();
     
     area_circle();
