@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 106_DefaultArgumentValues - Debug ]----------"
-	@cd "106_DefaultArgumentValues" && "$(MAKE)" -f  "106_DefaultArgumentValues.mk"
+	@echo "----------Building project:[ Exercise_23_Using_Default_Argument_Values - Debug ]----------"
+	@cd "Exercise_23_Using_Default_Argument_Values" && "$(MAKE)" -f  "Exercise_23_Using_Default_Argument_Values.mk"
 clean:
-	@echo "----------Cleaning project:[ 106_DefaultArgumentValues - Debug ]----------"
-	@cd "106_DefaultArgumentValues" && "$(MAKE)" -f  "106_DefaultArgumentValues.mk" clean
+	@echo "----------Cleaning project:[ Exercise_23_Using_Default_Argument_Values - Debug ]----------"
+	@cd "Exercise_23_Using_Default_Argument_Values" && "$(MAKE)" -f  "Exercise_23_Using_Default_Argument_Values.mk" clean
