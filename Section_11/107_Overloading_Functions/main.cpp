@@ -29,7 +29,7 @@ void print(string str1, string str2) {
 void print(vector<string> vec) {
     int i {1};
     for (string str: vec) {
-        cout << "Printing part " << i << "/" << vec.size() << ": " << str << endl;
+        cout << "Printing vector of strings, part " << i << "/" << vec.size() << ": " << str << endl;
         i++;
     }
 }
@@ -37,15 +37,18 @@ void print(vector<string> vec) {
 int main() {
     int i {10};
     double dbl {23.23};
-    string str {"Single string"};
+    string str1 {"String #1"};
     string str2 {"String #2"};
-    vector<string> vctr {str, str2};
+    vector<string> string_vector {str1, str2};
     
     print(i);
+    print('A'); // Character is always promoted to int
     print(dbl);
-    print(str);
-    print(str, str2);
-    print(vctr);
+    print(123.3F);  // Float is promoted to double
+    print(str1);
+    print("C-style string");    // C-style strinbg converted to C++ string
+    print(str1, str2);
+    print(string_vector);
     
     cout << endl;
     return 0;
