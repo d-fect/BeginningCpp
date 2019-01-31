@@ -12,7 +12,8 @@
   <Project Name="Exercise_23_Using_Default_Argument_Values" Path="Exercise_23_Using_Default_Argument_Values/Exercise_23_Using_Default_Argument_Values.project" Active="No"/>
   <Project Name="107_Overloading_Functions" Path="107_Overloading_Functions/107_Overloading_Functions.project" Active="No"/>
   <Project Name="Exercise_24_Overloading_Functions_Calculating_Area" Path="Exercise_24_Overloading_Functions_Calculating_Area/Exercise_24_Overloading_Functions_Calculating_Area.project" Active="No"/>
-  <Project Name="108_Passing_Arrays_to_Functions" Path="108_Passing_Arrays_to_Functions/108_Passing_Arrays_to_Functions.project" Active="Yes"/>
+  <Project Name="108_Passing_Arrays_to_Functions" Path="108_Passing_Arrays_to_Functions/108_Passing_Arrays_to_Functions.project" Active="No"/>
+  <Project Name="Exercise_25_Passing_Arrays_to_Functions" Path="Exercise_25_Passing_Arrays_to_Functions/Exercise_25_Passing_Arrays_to_Functions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -29,6 +30,7 @@
       <Project Name="107_Overloading_Functions" ConfigName="Debug"/>
       <Project Name="Exercise_24_Overloading_Functions_Calculating_Area" ConfigName="Debug"/>
       <Project Name="108_Passing_Arrays_to_Functions" ConfigName="Debug"/>
+      <Project Name="Exercise_25_Passing_Arrays_to_Functions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -44,6 +46,7 @@
       <Project Name="107_Overloading_Functions" ConfigName="Release"/>
       <Project Name="Exercise_24_Overloading_Functions_Calculating_Area" ConfigName="Release"/>
       <Project Name="108_Passing_Arrays_to_Functions" ConfigName="Release"/>
+      <Project Name="Exercise_25_Passing_Arrays_to_Functions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
