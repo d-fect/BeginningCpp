@@ -5,18 +5,18 @@
 ## Debug
 ProjectName            :=BasicIO
 ConfigurationName      :=Debug
-WorkspacePath          :=D:/UnrealCourse/Repos/BeginningCpp/Section_5
-ProjectPath            :=D:/UnrealCourse/Repos/BeginningCpp/Section_5/BasicIO
+WorkspacePath          :=D:/Repos/BeginningCpp/Section_5
+ProjectPath            :=D:/Repos/BeginningCpp/Section_5/BasicIO
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=frank
-Date                   :=15/07/2018
-CodeLitePath           :="D:/Program Files/CodeLite"
-LinkerName             :=D:/MinGW/bin/g++.exe
-SharedObjectLinkerName :=D:/MinGW/bin/g++.exe -shared -fPIC
+User                   :=EDBFR
+Date                   :=07/02/2019
+CodeLitePath           :="C:/Program Files/CodeLite"
+LinkerName             :=C:/MinGW/bin/g++.exe
+SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
 ObjectSuffix           :=.o
 DependSuffix           :=.o.d
 PreprocessSuffix       :=.i
@@ -36,7 +36,7 @@ ObjectsFileList        :="BasicIO.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
-RcCompilerName         :=D:/MinGW/bin/windres.exe
+RcCompilerName         :=C:/MinGW/bin/windres.exe
 LinkOptions            :=  
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
@@ -49,19 +49,19 @@ LibPath                := $(LibraryPathSwitch).
 ## Common variables
 ## AR, CXX, CC, AS, CXXFLAGS and CFLAGS can be overriden using an environment variables
 ##
-AR       := D:/MinGW/bin/ar.exe rcu
-CXX      := D:/MinGW/bin/g++.exe
-CC       := D:/MinGW/bin/gcc.exe
+AR       := C:/MinGW/bin/ar.exe rcu
+CXX      := C:/MinGW/bin/g++.exe
+CC       := C:/MinGW/bin/gcc.exe
 CXXFLAGS := -std=c++14 -Wall -g -O0 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
-AS       := D:/MinGW/bin/as.exe
+AS       := C:/MinGW/bin/as.exe
 
 
 ##
 ## User defined environment variables
 ##
-CodeLiteDir:=D:\Program Files\CodeLite
+CodeLiteDir:=C:\Program Files\CodeLite
 Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
 
 
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/UnrealCourse/Repos/BeginningCpp/Section_5/BasicIO/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Repos/BeginningCpp/Section_5/BasicIO/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 
